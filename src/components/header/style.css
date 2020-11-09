@@ -1,0 +1,211 @@
+/* estilizacao do header*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* estilizacao geral do header*/
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: auto;
+    background-color: #0D0D0D;
+}
+
+
+/* estilzacao do menu */
+
+header .menu{
+    margin-left: 80vh;
+    width: auto;
+    justify-content: center;  
+    align-self: center;  
+}
+
+/*esilização conteudo do menu*/
+header .menu a{
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin: 50px;
+}
+/*estilização logo*/
+header .logo{
+    justify-content: center;  
+    align-self: center;  
+}
+
+
+
+/*Responsividade*/
+
+@media screen and (max-width: 1570px) {
+
+
+/* estilzacao do menu */
+
+header .menu{
+    margin-left: 50vh;
+}
+
+/*esilização conteudo do menu*/
+header .menu a{
+    font-size: 23px;
+    margin: 40px;
+}
+
+
+}
+
+
+@media screen and (max-width: 1165px) {
+
+
+    /* estilzacao do menu */
+    
+    header .menu{
+        margin-left: 30vh;
+    }
+    
+    /*esilização conteudo do menu*/
+    header .menu a{
+        font-size: 20px;
+        margin: 30px;
+    }
+    
+    
+}
+  
+
+@media screen and (max-width: 870px) {
+
+
+    /* estilzacao do menu */
+    
+    header .menu{
+        margin-left: 10vh;
+    }
+    
+    /*esilização conteudo do menu*/
+    header .menu a{
+        font-size: 20px;
+        margin: 30px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 670px) {
+
+
+    /* estilzacao do menu */
+    
+    header .menu{
+        margin-left: 5vh;
+    }
+    
+    /*esilização conteudo do menu*/
+    header .menu a{
+        font-size: 18px;
+        margin: 20px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 528px) {
+
+
+    /* estilzacao do menu */
+    
+    header .menu{
+        margin-left: 3vh;
+    }
+    
+    /*esilização conteudo do menu*/
+    header .menu a{
+        font-size: 18px;
+        margin: 15px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 465px) {
+
+
+    /* estilzacao do menu */
+    
+    header .menu{
+        margin-left: 0vh;
+    }
+    
+    /*esilização conteudo do menu*/
+    header .menu a{
+        font-size: 18px;
+        margin: 10px;
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+
+    /* estilzacao do menu */
+    
+    header .menu{
+        margin-left: 0vh;
+    }
+    
+    /*esilização conteudo do menu*/
+    header .menu a{
+        word-break: keep-all;
+        font-size: 17px;
+        margin: 8px;
+    }
+
+    /*Estilização da logo*/
+    header .logo img{
+        width: 3vh;
+    }
+    
+    
+}
+
+@media screen and (max-width: 360px) {
+
+
+    /* estilzacao do menu */
+    
+    header .menu{
+        margin-left: 0vh;
+    }
+    
+    /*esilização conteudo do menu*/
+    header .menu a{
+        word-break: keep-all;
+        font-size: 16px;
+        margin: 8px;
+    }
+
+    /*Estilização da logo*/
+    header .logo img{
+        width: 0vh;
+    }
+    
+    
+}
