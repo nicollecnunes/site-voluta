@@ -14,8 +14,9 @@ export default function QuemSomosJS() {
     return (
         <section>
         <div class="quemsomos">
-            <div class="titulo">
+            <div class="titulopadrao">
             	<p>Quem Somos?</p>
+            	<hr></hr>
             </div>
             <div class="flexquemsomos">
 	            <div class="flex1">

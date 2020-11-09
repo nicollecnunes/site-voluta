@@ -4,17 +4,6 @@
     padding-left: 75px;
 }
 
-.quemsomos .titulo{
-    display: block;
-    padding-bottom: 60px;
-    font: 28px "Poppins", sans-serif;    
-}
-
-.quemsomos .titulo p{
-	font: 28px "Poppins", sans-serif;
-	font-weight: bold;
-}
-
 .quemsomos .flexquemsomos {
 	display: flex;
 	flex-direction: row;
@@ -52,24 +41,6 @@
 
 .quemsomos .flexquemsomos .flex1 .botaocontainer{
 	text-align: center;
-}
-
-.quemsomos .flexquemsomos .flex1 .botaocontainer .botaopadrao {
-	background-color:transparent;
-	border-radius:15px;
-	border:2px solid #A877D9;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font: 16px "Montserrat", sans-serif;
-	font-weight:bold;
-	padding:12px 60px;
-	text-decoration:none;
-}
-.quemsomos .flexquemsomos .flex1 .botaocontainer .botaopadrao:hover {
-	background-color:white;
-	color:#68458C;
-	border:2px solid #ffff;
 }
 
 .quemsomos .flexnumeros{
