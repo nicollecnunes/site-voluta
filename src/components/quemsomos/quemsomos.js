@@ -4,13 +4,18 @@ import '../.././globalStyle.css';
 
 import astronauta from '../.././assets/images/astronauta.svg';
 import xicara from '../.././assets/images/xicara.svg';
+import estudante from '../.././assets/images/estudante.svg';
+import projeto from '../.././assets/images/projeto.svg';
+import anoscomvc from '../.././assets/images/anoscomvc.svg';
+
+
 
 export default function QuemSomosJS() {
     return (
         <section>
         <div class="quemsomos">
             <div class="titulo">
-            	<p>Quem somos?</p>
+            	<p>Quem Somos?</p>
             </div>
             <div class="flexquemsomos">
 	            <div class="flex1">
@@ -33,21 +38,47 @@ export default function QuemSomosJS() {
             			<img src={xicara} alt=""/>
             		</div>
             		<div class="maisenumero">
-            			<h1>+ 9600</h1>
+            			<h1 class="mais">+ </h1> <h1> 9600</h1>
             		</div>
             		<div class="subtitulonum">
             			<h1 class="txtsubtitulonum">XÍCARAS DE CAFÉ</h1>
             		</div>
+            	</div>
+            	
+            	<div class="conjuntonum">
+            		<div class="imgnum">
+            			<img src={estudante} alt=""/>
+            		</div>
+            		<div class="maisenumero">
+            			<h1 class="mais">+ </h1> <h1> 49</h1>
+            		</div>
+            		<div class="subtitulonum">
+            			<h1 class="txtsubtitulonum">ESTUDANTES <br></br>TRANSFORMANDO O BRASIL</h1>
+            		</div>
+            	</div>
 
-            	</div>
             	<div class="conjuntonum">
-            	
+            		<div class="imgnum">
+            			<img src={projeto} alt=""/>
+            		</div>
+            		<div class="maisenumero">
+            			<h1 class="mais">+ </h1> <h1> 13</h1>
+            		</div>
+            		<div class="subtitulonum">
+            			<h1 class="txtsubtitulonum">PROJETOS REALIZADOS</h1>
+            		</div>
             	</div>
+
             	<div class="conjuntonum">
-            	
-            	</div>
-            	<div class="conjuntonum">
-            	
+            		<div class="imgnum">
+            			<img src={anoscomvc} alt=""/>
+            		</div>
+            		<div class="maisenumero">
+            			<h1 class="mais">+ </h1> <h1> 4</h1>
+            		</div>
+            		<div class="subtitulonum">
+            			<h1 class="txtsubtitulonum">ANOS COM VOCÊ</h1>
+            		</div>
             	</div>
 
             </div>
