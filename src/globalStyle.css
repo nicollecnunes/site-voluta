@@ -4,3 +4,36 @@
     outline: 0;
     box-sizing: border-box;
 }
+
+.titulopadrao{ 
+    display: block;
+    padding-bottom: 60px;
+    font: 28px "Poppins", sans-serif;
+    font-weight: bold;    
+}
+
+.titulopadrao hr{
+	width: 50px;
+	border: 2px solid #A877D9;
+	margin-left: 170px;
+}
+
+.botaopadrao {
+	text-align: center;
+	background-color:transparent;
+	border-radius:15px;
+	border:2px solid #A877D9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font: 16px "Montserrat", sans-serif;
+	font-weight:bold;
+	padding:12px 60px;
+	text-decoration:none;
+}
+
+.botaopadrao:hover {
+	background-color:white;
+	color:#68458C;
+	border:2px solid #ffff;
+}
