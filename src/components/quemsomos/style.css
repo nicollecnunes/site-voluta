@@ -31,7 +31,7 @@
 
 .quemsomos .flexquemsomos .astronauta {
 	padding-top: 185px;
-	display: block;
+	display: flex;
 	flex-grow: 0;
 	flex-shrink: 1;
 	flex-basis: auto;
@@ -69,6 +69,10 @@
 	font-weight: bold;
 }
 
+.quemsomos .flexnumeros .conjuntonum{
+	text-align: center;
+}
+
 .quemsomos .flexnumeros .conjuntonum .maisenumero{
 	display: flex;
 	flex-direction: row;
@@ -98,7 +102,70 @@
 }
 
 
+@media only screen and (max-width: 815px) {
+
+	.quemsomos{
+	    padding-left: 9px;
+	}
+
+	.quemsomos .flexquemsomos {
+		flex-direction: column;
+	}
+
+	.quemsomos .flexquemsomos .astronauta {
+		padding-top: 15px;
+		align-items: right;
+		flex-direction: row-reverse;
+	}
+
+	.quemsomos .flexquemsomos .astronauta img{
+		width: 50%;
+	}
+
+	.titulopadrao hr{
+		width: 60px;
+		border: 1px solid #A877D9;
+		margin-left: 75px;
+	}
+
+	.titulopadrao{
+		font-size: 18px;
+		padding-bottom: 40px;
+	}
+
+	.quemsomos .flexquemsomos .flex1{
+		width: 100%;
+	}
+
+	.quemsomos .flexquemsomos .flex1 .descricao {
+		font-size: 13px;
+		padding-bottom: 25px;
+	}
+
+	.botaopadrao {
+		font-size:10px;
+		padding:7px 37px;
+		border-radius:9px;
+		border:1px solid #A877D9;
+	}
+
+	.quemsomos .flexnumeros{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-self: center;
+		padding-right: 0px;
+	}
+	.quemsomos .flexnumeros .conjuntonum .maisenumero{
+		font-size: 19px;
+	}	
+
+	.quemsomos .flexnumeros .conjuntonum .subtitulonum .txtsubtitulonum{
+		font-size: 11px;
+	}
+
+	.quemsomos .flexnumeros .conjuntonum img{
+		width: 50%;
+	}
 
 
-
-
+}
