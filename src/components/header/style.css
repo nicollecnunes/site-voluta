@@ -1,4 +1,3 @@
-/* estilizacao do header*/
 
 * {
     padding: 0px;
@@ -12,16 +11,31 @@ header {
 
     display: flex;
     flex-direction: row;
-    height: 10vh;
+    height: 60px;
     width: auto;
     background-color: #0D0D0D;
 }
+/*Menu sanduiche*/
+header .check{
+    display: none;
+}
+
+header .icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+header .icone img{
+    width: 0px;
+}
 
 
-/* estilzacao do menu */
+/* estilizacao geral do menu */
 
 header .menu{
-    margin-left: 80vh;
+    margin-left: 95vh;
     width: auto;
     justify-content: center;  
     align-self: center;  
@@ -44,168 +58,123 @@ header .logo{
 }
 
 
-
 /*Responsividade*/
 
-@media screen and (max-width: 1570px) {
-
-
-/* estilzacao do menu */
-
-header .menu{
-    margin-left: 50vh;
-}
-
-/*esilização conteudo do menu*/
-header .menu a{
-    font-size: 23px;
-    margin: 40px;
-}
-
-
-}
-
-
-@media screen and (max-width: 1165px) {
+@media screen and (max-width: 1710px) {
 
 
     /* estilzacao do menu */
     
     header .menu{
-        margin-left: 30vh;
+        margin-left: 70vh;
     }
     
     /*esilização conteudo do menu*/
     header .menu a{
-        font-size: 20px;
-        margin: 30px;
+        font-size: 23px;
+        margin: 40px;
     }
     
     
+    }
+    @media screen and (max-width: 1390px) {
+    
+    
+        /* estilzacao do menu */
+        
+        header .menu{
+            margin-left: 50vh;
+        }
+        
+        /*esilização conteudo do menu*/
+        header .menu a{
+            font-size: 20px;
+            margin: 30px;
+        }
+        
+        
+    }
+    
+    @media screen and (max-width: 1165px) {
+    
+    
+        /* estilzacao do menu */
+        
+        header .menu{
+            margin-left: 30vh;
+        }
+        
+        /*esilização conteudo do menu*/
+        header .menu a{
+            font-size: 20px;
+            margin: 30px;
+        }
+        
+        
+    }
+      
+    
+    @media screen and (max-width: 900px) {
+    
+    
+        /* estilzacao do menu */
+        
+        header .menu{
+            margin-left: 10vh;
+        }
+        
+        /*esilização conteudo do menu*/
+        header .menu a{
+            font-size: 20px;
+            margin: 30px;
+        }
+        
+        
+    }
+    
+    
+    @media screen and (max-width: 800px) {
+    
+    
+        /* estilzacao do header com menu sanduiche */
+        
+        header .menu{
+            margin-left: 5vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #0D0D0D;
+            height: 100vh;
+            width: 200px;
+            position: absolute;
+            transition: all 0.2s linear;
+            top: 1px;
+            left: -245px;
+        }
+        
+        header .menu a{
+            padding: 20px;
+        }
+        header .check{
+            display: none;
+        }
+
+        header .icone{
+            cursor: pointer;
+            padding: 15px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        header .icone img{
+            width: auto;
+        }
+        
+        header .logo{
+            margin-left: 70%;
+        }
+        
+        header .check:checked ~ header .menu{
+            transform: translateX(500px);
+        }
 }
-  
-
-@media screen and (max-width: 870px) {
-
-
-    /* estilzacao do menu */
     
-    header .menu{
-        margin-left: 10vh;
-    }
-    
-    /*esilização conteudo do menu*/
-    header .menu a{
-        font-size: 20px;
-        margin: 30px;
-    }
-    
-    
-}
-
-
-@media screen and (max-width: 670px) {
-
-
-    /* estilzacao do menu */
-    
-    header .menu{
-        margin-left: 5vh;
-    }
-    
-    /*esilização conteudo do menu*/
-    header .menu a{
-        font-size: 18px;
-        margin: 20px;
-    }
-    
-    
-}
-
-
-@media screen and (max-width: 528px) {
-
-
-    /* estilzacao do menu */
-    
-    header .menu{
-        margin-left: 3vh;
-    }
-    
-    /*esilização conteudo do menu*/
-    header .menu a{
-        font-size: 18px;
-        margin: 15px;
-    }
-    
-    
-}
-
-
-@media screen and (max-width: 465px) {
-
-
-    /* estilzacao do menu */
-    
-    header .menu{
-        margin-left: 0vh;
-    }
-    
-    /*esilização conteudo do menu*/
-    header .menu a{
-        font-size: 18px;
-        margin: 10px;
-    }
-    
-    
-}
-
-
-
-@media screen and (max-width: 400px) {
-
-
-    /* estilzacao do menu */
-    
-    header .menu{
-        margin-left: 0vh;
-    }
-    
-    /*esilização conteudo do menu*/
-    header .menu a{
-        word-break: keep-all;
-        font-size: 17px;
-        margin: 8px;
-    }
-
-    /*Estilização da logo*/
-    header .logo img{
-        width: 3vh;
-    }
-    
-    
-}
-
-@media screen and (max-width: 360px) {
-
-
-    /* estilzacao do menu */
-    
-    header .menu{
-        margin-left: 0vh;
-    }
-    
-    /*esilização conteudo do menu*/
-    header .menu a{
-        word-break: keep-all;
-        font-size: 16px;
-        margin: 8px;
-    }
-
-    /*Estilização da logo*/
-    header .logo img{
-        width: 0vh;
-    }
-    
-    
-}
