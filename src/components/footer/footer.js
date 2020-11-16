@@ -15,7 +15,7 @@ export default function FooterJS() {
                         <p>Sala 05 do DECOM, ICEB - UFOP <br/> Ouro Preto -  MG </p>
                     </div>
                     <div class="colunafooter2">
-                        <a class="logosfootermail" href="mailto:voluta@gmail.com"><img src={logomail} alt=""/></a>
+                        <a class="logosfootermail" href="mailto:voluta@gmail.com"><img class="mail" src={logomail} alt=""/></a>
                         <a class="logosfooter" href="https://www.instagram.com/volutaej/"><img src={logoig} alt=""/></a>
                         <a class="logosfooter" href="https://www.facebook.com/VolutaEJ/"><img src={logofb} alt=""  /></a>  
                     </div>
