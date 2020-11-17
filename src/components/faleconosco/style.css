@@ -1,0 +1,80 @@
+.faleconosco{
+    background-color: #141A40;
+    color: #ffff;
+}
+
+.faleconosco .titulopadrao{	
+    padding-left: 401px;
+}
+
+.faleconosco .titulopadrao hr{	
+    width: 60px;
+	margin-left: 140px;
+}
+
+.faleconosco .container1{
+	padding-left: 0px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.faleconosco .container1 .satelite{
+	padding-right: 25px;
+}
+
+.faleconosco .container1 .satelite img{;
+	weight: 300px;
+}
+
+.faleconosco .container1 .contform{
+	font: 18px "Poppins", sans-serif;
+}
+
+.faleconosco .container1 .contform p{
+	padding-bottom: 26px;
+}
+
+.faleconosco .container1 .contform .botoes{
+	display: flex;
+	padding-bottom: 48px;
+}
+
+.faleconosco .container1 .contform .botoes .botaopadrao{
+	font: 13px "Montserrat", sans-serif;
+	padding:12px 45px;
+	font-weight: bold;
+	margin-right: 60px;
+}
+
+.faleconosco .container1 .contform .formularioesp{
+	display: flex;
+	height: 60px;
+}
+
+.faleconosco .container1 .contform .input{
+	background-color: transparent;
+	border: none;
+	color: white;
+    border-bottom: 2px solid #A877D9;
+    margin-right: 20px;
+    width: 350px;
+	height: 30px;
+	font: 16px "Poppins", sans-serif;
+}
+
+::placeholder {
+	color: rgba(255, 255, 255, 0.75);
+
+}
+
+.faleconosco .container1 .contform .input:focus{
+	background-color: black;
+}
+
+.faleconosco .container1 .contform .formularioesp2 .input{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: 720px;
+	height: 80px;
+}
+

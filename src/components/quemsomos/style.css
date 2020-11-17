@@ -1,7 +1,7 @@
 .quemsomos{
     background-color: #141A40;
     color: #ffff;
-    padding-left: 75px;
+    padding-left: 107px;
 }
 
 .quemsomos .flexquemsomos {
@@ -48,7 +48,7 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	align-items: center;
+	align-items: baseline;
 	align-content: center;
 	padding-right: 95px;
 }
@@ -63,14 +63,14 @@
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
-	align-content: center;
 	font-weight: bold;
 }
 
 .quemsomos .flexnumeros .conjuntonum{
 	text-align: center;
+	align-items: center;
 }
 
 .quemsomos .flexnumeros .conjuntonum .maisenumero{
@@ -78,27 +78,26 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-	align-items: baseline;
-	align-content: normal;
-	font: 45px "Poppins", sans-serif;
+	align-items: center;
+	font: 37px "Poppins", sans-serif;
 	font-weight: bold;
+
 
 	
 }	
 
 .quemsomos .flexnumeros .conjuntonum .maisenumero .mais{
 	color: #68458C;
+
 }
 
 .quemsomos .flexnumeros .conjuntonum .subtitulonum{
-	text-align: center;
-	font: 15px "Poppins", sans-serif;
+	font: 12px "Poppins", sans-serif;
 	font-weight: bold;
-	
 }
 
 .quemsomos .flexnumeros .conjuntonum .subtitulonum .txtsubtitulonum{
-	font-size: 15px;
+	font-size: 12px;
 }
 
 
@@ -154,7 +153,14 @@
 		grid-template-columns: repeat(2, 1fr);
 		align-self: center;
 		padding-right: 0px;
+		align-items: center;
 	}
+	
+
+	.quemsomos .flexnumeros .conjuntonum{
+		margin-top: 25px;
+	}
+
 	.quemsomos .flexnumeros .conjuntonum .maisenumero{
 		font-size: 19px;
 	}	
