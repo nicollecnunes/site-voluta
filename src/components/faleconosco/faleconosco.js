@@ -18,20 +18,22 @@ export default function FaleConoscoJS() {
                     </div>
                     <div class="contform">
                         <p> O que podemos fazer por você? </p>
-                        <div class="botoes">
-                            <a href="#" class="botaopadrao">Quero um projeto</a>
-                            <a href="#" class="botaopadrao">Dúvidas</a>
-                            <a href="#" class="botaopadrao">Outros</a>
-                           
+                        <div class="centralizar">
+                            <div class="botoes">
+                                <a href="#" class="botaopadrao">Projeto</a>
+                                <a href="#" class="botaopadrao">Dúvidas</a>
+                                <a href="#" class="botaopadrao">Outros</a>
+                               
+                            </div>
+                            <div class="formularioesp">
+                                <input type="input" class="input" placeholder="Seu nome" name="name" required />
+                                <input type="input" class="input" placeholder="Seu e-mail" name="name" required />
+                            </div>
+                            <div class="formularioesp2">
+                                <textarea class="input" placeholder="Mensagem" required/>   
+                            </div>
+                            <a href="#" class="botaopadrao">Enviar</a>
                         </div>
-                        <div class="formularioesp">
-                            <input type="input" class="input" placeholder="Seu Nome" name="name" required />
-                            <input type="input" class="input" placeholder="Seu e-mail" name="name" required />
-                        </div>
-                        <div class="formularioesp2">
-                            <textarea class="input" placeholder="Mensagem" required/>   
-                        </div>
-                        <a href="#" class="botaopadrao">Enviar</a>
                     </div>
                 </div>
 

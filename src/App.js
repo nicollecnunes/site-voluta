@@ -11,7 +11,7 @@ function App() {
     <div className="App">
 	    <div>
         <HeaderJS/>
-        <HomeJS/>
+        {/*<HomeJS/>*/}
         <QuemSomosJS/>
         <FaleConoscoJS/>
 	      <FooterJS/>  
