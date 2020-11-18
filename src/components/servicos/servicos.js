@@ -16,25 +16,25 @@ export default function Servicos() {
             </div>
             <div className = "info-servicos">
                 <div>
-                    <img src = {websites} />
+                    <img src = {websites} alt={"icon"} />
                     <h2>Websites</h2>
                     <p>Desenvolvemos websites personalizados, utilizando das mais <b>novas tecnologias</b> do mercado.</p>
                 </div>
 
                 <div>
-                    <img src = {aplicativos} />
+                    <img src = {aplicativos} alt={"icon"} />
                     <h2>Aplicativos</h2>
                     <p>Desenvolvemos para as plataformas <b>ANDROID</b> e <b>IOS</b>, de forma totalmente personalizada.</p>
                 </div>
 
                 <div>
-                    <img src = {sistemas} />
+                    <img src = {sistemas} alt={"icon"} />
                     <h2>Sistemas de Gerenciamento</h2>
                     <p>Criamos sistemas de gerenciamento visando principalmente <b>otimizar</b> o seu negócio.</p>
                 </div>
 
                 <div>
-                    <img src = {consultoria} />
+                    <img src = {consultoria} alt={"icon"} />
                     <h2>Consultorias</h2>
                     <p>Prestamos consultorias voltadas para <b>soluções</b> e <b>manutenções</b> de sistemas digitais.</p>
                 </div>

@@ -57,7 +57,6 @@
     border-radius: 15px;
     margin-left: 60px;
     margin-bottom: 36px;
-
 }
 
 .info-servicos h2{
@@ -73,6 +72,16 @@
     text-align: center;
     font-size: 16px;
     margin-top: 10px;
+}
+
+@media screen and (min-width: 1440px){
+    .info-servicos{
+        margin-left: -80px;
+    }
+    
+    .info-servicos div{
+        margin-left: 80px;
+    }
 }
 
 @media screen and (max-width: 1140px){
