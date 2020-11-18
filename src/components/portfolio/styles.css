@@ -1,0 +1,30 @@
+/* estilização da seção 'portfolio' */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-portfolio h1{
+    font-size: 28px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 98px;
+    width: max-content;
+    position: relative;
+}
+
+.titulo-portfolio h1::after{
+    content: "";
+    width: 63px;
+    height: 3px;
+    position: absolute;
+    background: #A877D9;
+    right: 0px;
+    bottom: -8px;
+}
