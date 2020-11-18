@@ -18,7 +18,7 @@ export default function HomeJS() {
                     <div class="titulo_home"> <h1>Voluta <br/> Soluções Digitais</h1> </div>
                     <div class="legenda_home">
                         <h3>Nós temos o que </h3>
-                        <h3 class="roxo"> você</h3>
+                        <h3 class="roxo"> você </h3>
                         <h3>precisa!</h3>
                     </div>
                 </div>
