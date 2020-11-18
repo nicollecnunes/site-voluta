@@ -23,7 +23,7 @@
 }
 
 .faleconosco .container1 .satelite img{;
-	weight: 300px;
+	width: 300px;
 }
 
 .faleconosco .container1 .contform{
@@ -67,9 +67,6 @@
 
 }
 
-.faleconosco .container1 .contform .input:focus{
-	background-color: black;
-}
 
 .faleconosco .container1 .contform .formularioesp2 .input{
 	margin-top: 50px;
@@ -78,3 +75,79 @@
 	height: 80px;
 }
 
+
+@media only screen and (max-width: 815px) {
+
+	.faleconosco .container1 .satelite{
+		display: none;
+		background-color: green;
+	}
+
+	.faleconosco .titulopadrao{	
+	    padding-left: 30px;
+	    padding-bottom: 30px;
+	}
+
+	.faleconosco .titulopadrao hr{	
+	    width: 50px;
+		margin-left: 82px;
+	}
+
+	.faleconosco .container1 .contform{
+		font: 10px "Poppins", sans-serif;
+	}
+
+	.faleconosco .container1 .contform .botoes{;
+		padding-bottom: 20px;
+	}
+
+	.faleconosco .container1 .contform .botoes .botaopadrao{
+		font: 8px "Montserrat", sans-serif;
+		padding:8px 19px;
+		font-weight: bold;
+		margin-right: 25px;
+	}
+
+	.faleconosco .container1 .contform .formularioesp{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.faleconosco .container1 .contform .formularioesp2{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.faleconosco .container1 .contform .input{
+		background-color: transparent;
+		border: none;
+		color: white;
+	    border-bottom: 2px solid #A877D9;
+	    margin-right: 20px;
+	    width: 240px;
+		height: 30px;
+		font: 8px "Poppins", sans-serif;
+	}
+
+	.faleconosco .container1 .contform .formularioesp2 .input{
+		width: 240px;
+		height: 50px;
+		argin-top: 30px;
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+
+	.centralizar{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.faleconosco .container1 .contform .botoes{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+}
