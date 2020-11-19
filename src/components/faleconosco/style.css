@@ -3,7 +3,7 @@
 }
 
 .faleconosco .titulopadrao{	
-    padding-left: 401px;
+    padding-left: 422px;
 }
 
 .faleconosco .titulopadrao hr{	
@@ -22,7 +22,7 @@
 }
 
 .faleconosco .container1 .satelite img{;
-	width: 300px;
+	width: 400px;
 }
 
 .faleconosco .container1 .contform{
@@ -75,16 +75,33 @@
 }
 
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 7608px) {
+
+	.faleconosco{
+		padding-bottom: 50px;
+	}
+
+	.faleconosco .container1{
+		display: flex;
+		justify-content: space-between;
+	}
 
 	.faleconosco .container1 .satelite{
-		display: none;
-		background-color: green;
+		height: 250px;
+		display: flex;
+		flex-direction: column-reverse;
+		z-index: 1;
+		padding-right:0px;
+		position: absolute;
+	}
+
+	.faleconosco .container1 .satelite img{
+		width: 100px;
 	}
 
 	.faleconosco .titulopadrao{	
 	    padding-left: 30px;
-	    padding-bottom: 30px;
+	    padding-bottom: 24px;
 	}
 
 	.faleconosco .titulopadrao hr{	
@@ -93,6 +110,8 @@
 	}
 
 	.faleconosco .container1 .contform{
+		z-index: 2;
+		padding-left: 70px;
 		font: 10px "Poppins", sans-serif;
 	}
 
