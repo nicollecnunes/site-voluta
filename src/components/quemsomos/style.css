@@ -1,176 +1,474 @@
-.quemsomos{
-    color: #ffff;
-    padding-left: 107px;
-}
 
-.quemsomos .flexquemsomos {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: stretch;
-	align-content: stretch;
-}
-
-.quemsomos .flexquemsomos .flex1{
-	display: block;
-    width: 60%;
-}
-
-.quemsomos .flexquemsomos .flex1 .descricao {
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
-	font: 18px "Montserrat", sans-serif;
-	padding-bottom: 72px;
-}
-
-.quemsomos .flexquemsomos .astronauta {
-	padding-top: 185px;
-	display: flex;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
-}
-
-.quemsomos .flexquemsomos .flex1 .botaocontainer{
-	text-align: center;
-}
-
-.quemsomos .flexnumeros{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: baseline;
-	align-content: center;
-	padding-right: 95px;
-}
-
-.quemsomos .flexnumeros .conjuntonum{
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	font-weight: bold;
-}
-
-.quemsomos .flexnumeros .conjuntonum{
-	text-align: center;
-	align-items: center;
-}
-
-.quemsomos .flexnumeros .conjuntonum .maisenumero{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	font: 37px "Poppins", sans-serif;
-	font-weight: bold;
-
-
-	
-}	
-
-.quemsomos .flexnumeros .conjuntonum .maisenumero .mais{
-	color: #68458C;
-
-}
-
-.quemsomos .flexnumeros .conjuntonum .subtitulonum{
-	font: 12px "Poppins", sans-serif;
-	font-weight: bold;
-}
-
-.quemsomos .flexnumeros .conjuntonum .subtitulonum .txtsubtitulonum{
-	font-size: 12px;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
 
-@media only screen and (max-width: 815px) {
+/* estilizacao geral da quemsomos*/
 
-	.quemsomos{
-	    padding-left: 9px;
+.quemsomos {
+
+    display: flex;
+    flex-direction: row;
+    height: 1700.59px;
+    width: auto;
+    background-color: #0D0D0D;
+}
+/*Div com a escrita*/
+.quemsomos .escrita {
+    position: absolute;
+    z-index: 6;
+    top: 75.59px;
+    left: 5.929%;
+}
+/*Titulo*/
+.quemsomos .escrita .titulo_quemsomos h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    line-height: 52px;
+}
+/*Legenda no geral*/
+.quemsomos .escrita .legenda_quemsomos{
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 0.03em;
+    margin-top: 15%;
+}
+/*Parte da legenda branca*/
+.quemsomos .escrita .legenda_quemsomos h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: white;
+}
+/*Parte da legenda roxa*/
+.quemsomos .escrita .legenda_quemsomos .roxo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: rgb(139, 21, 194);
+}
+
+/*Imagens*/
+
+.quemsomos .imagens .cometa1{
+    position: absolute;
+    top: 70.59px;
+    left: 67.057%;
+    z-index: 20;
+    width: 6.954%;
+}
+
+.quemsomos .imagens .cometa1 img{
+    width: 100%;
+}
+
+.quemsomos .imagens .cometa2{
+    position: absolute;
+    top: 185.59px;
+    left: 62.299%;
+    z-index: 20;
+    width: 6.954%;
+}
+
+.quemsomos .imagens .cometa2 img{
+    width: 100%;
+}
+
+.quemsomos .imagens .cometa3{
+    position: absolute;
+    top: 131.59px;
+    left: 78.55%;
+    width: 6.954%;
+}
+
+.quemsomos .imagens .cometa3 img{
+    width: 100%;
+}
+
+.quemsomos .imagens .cometa4{
+    position: absolute;
+    top: 384.59px;
+    left: 92.0937%;
+    z-index: 20;
+    width: 6.954%;
+}
+
+.quemsomos .imagens .cometa4 img{
+    width: 100%;
+}
+
+.quemsomos .imagens .estrela1{
+    position: absolute;
+    top: 182.59px;
+    left: 62.079%;
+}
+
+.quemsomos .imagens .estrela2{
+    position: absolute;
+    top: 72.59px;
+    left: 66.4714%;
+}
+
+.quemsomos .imagens .estrela3{
+    position: absolute;
+    top: 274.59px;
+    left: 69.619%;
+    z-index: 20;
+}
+
+.quemsomos .imagens .estrela4{
+    position: absolute;
+    top: 153.59px;
+    left: 73.865%;
+}
+
+.quemsomos .imagens .estrela5{
+    position: absolute;
+    top: 353.59px;
+    left: 94.289%;
+    z-index: 20;
+}
+
+.quemsomos .imagens .estrela6{
+    position: absolute;
+    top: 44.09px;
+    left: 75.89%;
+}
+
+.quemsomos .imagens .estrela7{
+    position: absolute;
+    top: 274.59px;
+    left: 77.598%;
+    z-index: 20;
+}
+
+.quemsomos .imagens .estrela8{
+    position: absolute;
+    top: 102.59px;
+    left: 81.405%;
+}
+
+.quemsomos .imagens .estrela9{
+    position: absolute;
+    top: 28.59px;
+    left: 87.335%;
+}
+
+.quemsomos .imagens .estrela10{
+    position: absolute;
+    top: 190.59px;
+    left: 96.486%;
+}
+
+.quemsomos .imagens .planetavermelho{
+    position: absolute;
+    top: 192.13px;
+    left: 82.028%;
+    width: 12.144%;
+}
+
+.quemsomos .imagens .planetavermelho img{
+    width: 100%;
+}
+
+.quemsomos .imagens .planetaazul{
+    position: absolute;
+    top: 35.59px;
+    left: 87.323%;
+    width: 9.59%;
+}
+
+.quemsomos .imagens .planetaazul img{
+    width: 100%;
+}
+
+/*Parte do quadro branco*/
+
+.quemsomos .descricao{
+    position: absolute;
+    width: 75.915%;
+    height: 1225px;
+    left: 12.738%;
+    top: 329.59px;
+
+    background: #FFFFFF;
+    box-shadow: 5px 5px 100px 100px rgba(0, 0, 0, 0.7);
+    border-radius: 28px;
+}
+
+/*  RESPONSIVIDADE*/
+@media screen and (min-width: 1600px) {
+	.quemsomos .imagens .planetavermelho{
+        position: absolute;
+        top: 192.13px;
+        left: 82.028%;
+        width: 194.304px;
+    }
+
+    .quemsomos .imagens .planetaazul{
+        position: absolute;
+        top: 35.59px;
+        left: 87.323%;
+        width: 153.44px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+   
+    /* estilizacao geral da quemsomos*/
+    .quemsomos {
+
+        display: flex;
+        flex-direction: row;
+        height: 2739px;
+        width: auto;
+        background-color: #0D0D0D;
+    }
+    /*Div com a escrita*/
+    .quemsomos .escrita {
+        position: absolute;
+        z-index: 6;
+        top: 123px;
+        left: 14.133%;
+    }
+    /*Titulo*/
+    .quemsomos .escrita .titulo_quemsomos h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 22.2px;
+        font-weight: 700;
+        color: white;
+        line-height: 28.62px;
+        text-align: center;
+    }
+    /*Legenda no geral*/
+    .quemsomos .escrita .legenda_quemsomos{
+        display: flex;
+        flex-direction: row;
+        letter-spacing: 0.03em;
+        margin-top: 15%;
+    }
+    /*Parte da legenda branca*/
+    .quemsomos .escrita .legenda_quemsomos h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.5px;
+        color: white;
+        text-align: center;
+    }
+    /*Parte da legenda roxa*/
+    .quemsomos .escrita .legenda_quemsomos .roxo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19.5px;
+        color: rgb(139, 21, 194);
+        text-align: center;
+    }
+    
+    /*Imagens*/
+    
+    .quemsomos .imagens .cometa1{
+        position: absolute;
+        top: 94px;
+        left: 50.666%;
+        z-index: 20;
+        width: 7.856%;
+    }
+    
+    .quemsomos .imagens .cometa1 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .cometa2{
+        position: absolute;
+        top: 79px;
+        left: 27.466%;
+        z-index: 20;
+        width: 7.856%;
+    }
+    
+    .quemsomos .imagens .cometa2 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .cometa3{
+        position: absolute;
+        top: 75px;
+        left: 77.333%;
+        width: 7.856%;
+    }
+    
+    .quemsomos .imagens .cometa3 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .cometa4{
+        position: absolute;
+        top: 136px;
+        left: 82.4%;
+        z-index: 20;
+        width: 7.856%;
+    }
+    
+    .quemsomos .imagens .cometa4 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela1{
+        position: absolute;
+        top: 98px;
+        left: 12%;
+        width: 2.666%;
+    }
+
+    .quemsomos .imagens .estrela1 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela2{
+        position: absolute;
+        top: 170px;
+        left: 13.333%;
+        width:  2.666%;
+    }
+
+    .quemsomos .imagens .estrela2 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela3{
+        position: absolute;
+        top: 73px;
+        left: 25.866%;
+        z-index: 20;
+        width:  2.666%;
+    }
+
+    .quemsomos .imagens .estrela3 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela4{
+        position: absolute;
+        top: 129px;
+        left: 30.4%;
+        width:  2.666%;
+    }
+
+    .quemsomos .imagens .estrela4 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela5{
+        position: absolute;
+        left: 44.8%;
+        top: 194px;
+        z-index: 20;
+        width:  2.666%;
+    }
+
+    .quemsomos .imagens .estrela5 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela6{
+        position: absolute;
+        left: 45.6%;
+        top: 67px;
+        width:  2.666%;
+    }
+
+    .quemsomos .imagens .estrela6 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela7{
+        position: absolute;
+        left: 67.466%;
+        top: 64px;
+        z-index: 20;
+        width:  2.666%;
+    }
+
+    .quemsomos .imagens .estrela7 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela8{
+        position: absolute;
+        left: 68%;
+        top: 112px;
+        width:  2.666%;
+    }
+
+    .quemsomos .imagens .estrela8 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela9{
+        position: absolute;
+        left:80%;
+        top: 187px;
+        width:  2.666%;
+    }
+
+    .quemsomos .imagens .estrela9 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .estrela10{
+        position: absolute;
+        left: 86.133%;
+        top: 100px;
+        width:  2.666%;
+    }
+
+    .quemsomos .imagens .estrela10 img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .planetavermelho{
+        position: absolute;
+        top: 98px;
+        left: -10.133%;
+        width: 20%;
+    }
+    
+    .quemsomos .imagens .planetavermelho img{
+        width: 100%;
+    }
+    
+    .quemsomos .imagens .planetaazul{
+        position: absolute;
+        top: 194px;
+        left: 88.8%;
+        width: 23.53%;
+    }
+    
+    .quemsomos .imagens .planetaazul img{
+        width: 100%;
+    }
+    
+    /*Parte do quadro branco*/
+    
+    .quemsomos .descricao{
+        position: absolute;
+        width: 85.6%;
+        height: 2339px;
+        left: 7.466%;
+        top: 247px;
+    
+        background: #FFFFFF;
+        box-shadow: 4px 4px 100px 50px rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
 	}
-
-	.quemsomos .flexquemsomos {
-		flex-direction: column;
-	}
-
-	.quemsomos .flexquemsomos .astronauta {
-		padding-top: 15px;
-		align-items: right;
-		flex-direction: row-reverse;
-	}
-
-	.quemsomos .flexquemsomos .astronauta img{
-		width: 50%;
-	}
-
-	.titulopadrao hr{
-		width: 60px;
-		border: 1px solid #A877D9;
-		margin-left: 75px;
-	}
-
-	.titulopadrao{
-		font-size: 18px;
-		padding-bottom: 40px;
-	}
-
-	.quemsomos .flexquemsomos .flex1{
-		width: 100%;
-	}
-
-	.quemsomos .flexquemsomos .flex1 .descricao {
-		font-size: 13px;
-		padding-bottom: 25px;
-	}
-
-	.botaopadrao {
-		font-size:10px;
-		padding:7px 37px;
-		border-radius:9px;
-		border:1px solid #A877D9;
-	}
-
-	.quemsomos .flexnumeros{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		align-self: center;
-		padding-right: 0px;
-		align-items: center;
-	}
-	
-
-	.quemsomos .flexnumeros .conjuntonum{
-		margin-top: 25px;
-	}
-
-	.quemsomos .flexnumeros .conjuntonum .maisenumero{
-		font-size: 19px;
-	}	
-
-	.quemsomos .flexnumeros .conjuntonum .subtitulonum .txtsubtitulonum{
-		font-size: 11px;
-	}
-
-	.quemsomos .flexnumeros .conjuntonum img{
-		width: 50%;
-	}
-
-
 }
