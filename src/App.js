@@ -7,7 +7,6 @@ import Portfolio from './components/portfolio/portfolio.js';
 import FaleConoscoJS from './components/faleconosco/faleconosco.js';
 import HomeJS from './components/home/home.js';
 
-
 function App() {
   return (
     <div className="App">
@@ -19,6 +18,7 @@ function App() {
         <Portfolio/>
         <FaleConoscoJS/>
 	      <FooterJS/>  
+        {/*<QuemSomosJS/>*/}
 	    </div>
     </div>
   );
