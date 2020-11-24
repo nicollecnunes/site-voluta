@@ -184,6 +184,10 @@
     width: 9.59%;
 }
 
+.quemsomos .imagens .espaco-metade{
+    display: none;
+}
+
 .quemsomos .imagens .planetaazul img{
     width: 100%;
 }
@@ -446,12 +450,16 @@
     .quemsomos .imagens .planetavermelho img{
         width: 100%;
     }
-    
+
     .quemsomos .imagens .planetaazul{
+        display: none;
+    }
+    
+    .quemsomos .imagens .espaco-metade{
+        display: inline;
         position: absolute;
         top: 194px;
-        left: 88.8%;
-        width: 23.53%;
+        left: 86.8%;
     }
     
     .quemsomos .imagens .planetaazul img{

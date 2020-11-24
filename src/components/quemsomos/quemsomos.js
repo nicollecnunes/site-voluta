@@ -18,6 +18,7 @@ import estrela9 from '../.././assets/images/estrela9.png';
 import estrela10 from '../.././assets/images/estrela10.png';
 import planetavermelho from '../.././assets/images/Planeta3.png';
 import planetaazul from '../.././assets/images/Group 27.png';
+import espacometade from '../.././assets/images/espaco.png';
 
 
 
@@ -52,6 +53,7 @@ export default function QuemSomosJS() {
 
             <div class="planetavermelho"><img src={planetavermelho} alt="cometa azul"/></div>
             <div class="planetaazul"><img src={planetaazul} alt="cometa vermelho"/></div>
+            <div class="espaco-metade"><img src={espacometade} alt="cometa vermelho"/></div>
         </div> 
         <div class="descricao">
 

@@ -11,14 +11,14 @@ function App() {
   return (
     <div className="App">
 	    <div>
-        <HeaderJS/>
-        {/*<HomeJS/>*/}
+        {/*<HeaderJS/>
+        <HomeJS/>
         <QuemSomosJS/>
         <Servicos />
         <Portfolio/>
         <FaleConoscoJS/>
-	      <FooterJS/>  
-        {/*<QuemSomosJS/>*/}
+	      <FooterJS/>*/}  
+        <QuemSomosJS/>
 	    </div>
     </div>
   );
