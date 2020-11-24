@@ -40,7 +40,7 @@
 
 .faleconosco .container1 .contform .botoes .botaopadrao{
 	font: 13px "Montserrat", sans-serif;
-	padding:12px 45px;
+	padding:12px 75px;
 	font-weight: bold;
 	margin-right: 60px;
 }
@@ -66,6 +66,10 @@
 
 }
 
+.faleconosco .container1 .contform .formularioesp2 textarea{
+	resize: none;
+}
+
 
 .faleconosco .container1 .contform .formularioesp2 .input{
 	margin-top: 50px;
@@ -75,7 +79,7 @@
 }
 
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
 
 	.faleconosco{
 		padding-bottom: 50px;
@@ -87,7 +91,7 @@
 	}
 
 	.faleconosco .container1 .satelite{
-		height: 250px;
+		height: 200px;
 		display: flex;
 		flex-direction: column-reverse;
 		z-index: 1;
@@ -112,7 +116,7 @@
 	.faleconosco .container1 .contform{
 		z-index: 2;
 		padding-left: 70px;
-		font: 10px "Poppins", sans-serif;
+		font: 12px "Poppins", sans-serif;
 	}
 
 	.faleconosco .container1 .contform .botoes{;
@@ -120,7 +124,7 @@
 	}
 
 	.faleconosco .container1 .contform .botoes .botaopadrao{
-		font: 8px "Montserrat", sans-serif;
+		font: 10px "Montserrat", sans-serif;
 		padding:8px 19px;
 		font-weight: bold;
 		margin-right: 25px;
@@ -143,15 +147,15 @@
 		color: white;
 	    border-bottom: 2px solid #A877D9;
 	    margin-right: 20px;
-	    width: 240px;
+	    width: 260px;
 		height: 30px;
-		font: 8px "Poppins", sans-serif;
+		font: 10px "Poppins", sans-serif;
 	}
 
 	.faleconosco .container1 .contform .formularioesp2 .input{
-		width: 240px;
+		width: 260px;
 		height: 50px;
-		argin-top: 30px;
+		margin-top: 30px;
 		margin-bottom: 10px;
 		margin-top: 20px;
 	}
@@ -160,6 +164,14 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.centralizar .botaopadrao{
+		font: 10px "Montserrat", sans-serif;
+		padding:12px 25px;
+		font-weight: bold;
+		margin-top: 15px;
+
 	}
 
 	.faleconosco .container1 .contform .botoes{
