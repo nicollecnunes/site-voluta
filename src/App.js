@@ -2,6 +2,7 @@ import React from 'react';
 import FooterJS from './components/footer/footer.js';
 import HeaderJS from './components/header/header.js';
 import QuemSomosJS from './components/quemsomos/quemsomos.js';
+import QuemSomosInicio from './components/quemsomosinicio/quemsomosinicio.js';
 import Servicos from './components/servicos/servicos.js';
 import Portfolio from './components/portfolio/portfolio.js';
 import FaleConoscoJS from './components/faleconosco/faleconosco.js';
@@ -14,11 +15,11 @@ function App() {
         <HeaderJS/>
         <HomeJS/>
         <QuemSomosJS/>
+        <QuemSomosInicio/>
         <Servicos />
         <Portfolio/>
         <FaleConoscoJS/>
 	    <FooterJS/> 
-        <QuemSomosJS/>
 	    </div>
     </div>
   );
