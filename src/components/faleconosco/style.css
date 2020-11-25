@@ -4,6 +4,7 @@
 
 .faleconosco .titulopadrao{	
     padding-left: 422px;
+    background-color: pink;
 }
 
 .faleconosco .titulopadrao hr{	
@@ -97,6 +98,7 @@
 		z-index: 1;
 		padding-right:0px;
 		position: absolute;
+		margin-top: 120px;
 	}
 
 	.faleconosco .container1 .satelite img{
@@ -104,22 +106,22 @@
 	}
 
 	.faleconosco .titulopadrao{	
-	    padding-left: 30px;
+	    padding-left: 15px;
 	    padding-bottom: 24px;
 	}
 
 	.faleconosco .titulopadrao hr{	
 	    width: 50px;
-		margin-left: 82px;
+		margin-left: 82px;		
 	}
 
 	.faleconosco .container1 .contform{
 		z-index: 2;
-		padding-left: 70px;
+		padding-left: 20px;
 		font: 12px "Poppins", sans-serif;
 	}
 
-	.faleconosco .container1 .contform .botoes{;
+	.faleconosco .container1 .contform .botoes{
 		padding-bottom: 20px;
 	}
 
@@ -127,7 +129,11 @@
 		font: 10px "Montserrat", sans-serif;
 		padding:8px 19px;
 		font-weight: bold;
-		margin-right: 25px;
+		margin-right: 0px;
+	}
+
+	.faleconosco .container1 .contform .botoes .botaopadrao + .botaopadrao{
+		margin-left: 30px;
 	}
 
 	.faleconosco .container1 .contform .formularioesp{
