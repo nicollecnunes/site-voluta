@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import '../.././globalStyle.css';
 
-import satelite from '../.././assets/images/satelite.png';
+import satelite from '../.././assets/images/faleconosco/satelite.png';
 
 export default function FaleConoscoJS() {
     return (
