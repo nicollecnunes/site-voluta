@@ -20,7 +20,8 @@ export default function FaleConoscoJS() {
                         <p> O que podemos fazer por você? </p>
                         <div class="centralizar">
                             <div class="botoes">
-                                <a href="#" class="botaopadrao">Projeto</a>
+                                <a href="#" class="botaopadrao" id="proj-primeiro">Quero um Projeto</a>
+                                <a href="#" class="botaopadrao" id="proj-segundo">Projeto</a>
                                 <a href="#" class="botaopadrao">Dúvidas</a>
                                 <a href="#" class="botaopadrao">Outros</a>
                                
