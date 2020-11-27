@@ -200,6 +200,389 @@
     height: 1225px;
     left: 12.738%;
     top: 329.59px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 100px 100px rgba(0, 0, 0, 0.7);
+    border-radius: 28px;
+}
+
+
+/*Primeira parte*/
+.quemsomos .descricao .titulo_descricao{
+    position: absolute;
+    width: 28.93%;
+    height: 52px;
+    left: 35.39%;
+    top: 47px;
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #0D0D0D;
+    text-align: center;
+}
+
+.quemsomos .descricao .subtitulo_descricao{
+    position: absolute;
+    width: 80.52%;
+    height: 105px;
+    left: 6.954vw;
+    top: 134px;
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/*Parte dos primeiros quadros*/
+.quemsomos .descricao .quadros{
+    position: absolute;
+    width: 82.256%;
+    height: 296px;
+    left: 9.06%;
+    top: 274px;
+
+}
+
+.quemsomos .descricao .quadros .quadro1{
+    position: absolute;
+    width: 17.499vw;
+    height: 296px;
+    background: #EAECF5;
+    box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+    border-radius: 14.5941px;
+}
+
+.quemsomos .descricao .quadros .quadro1 img{
+    position: absolute;
+    left: 6.588vw;
+    top: 24px;
+    width: 46px;
+    height: 46px;
+}
+
+.quemsomos .descricao .quadros .quadro1 .texto_quadro{
+    position: absolute;
+    width: 14.275vw;
+    height: 197px;
+    left: 1.464vw;
+    top: 83px;
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.quemsomos .descricao .quadros .quadro2{
+    position: absolute;
+    width: 17.499vw;
+    height: 296px;
+    left: 22.136vw;
+    background: #EAECF5;
+    box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+    border-radius: 14.5941px;
+}
+
+.quemsomos .descricao .quadros .quadro2 img{
+    position: absolute;
+    left: 6.588vw;
+    top: 24px;
+    width: 46px;
+    height: 46px;
+}
+
+.quemsomos .descricao .quadros .quadro2 .texto_quadro{
+    position: absolute;
+    width: 14.055vw;
+    height: 197px;
+    left: 1.663vw;
+    top: 81px;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.quemsomos .descricao .quadros .quadro3{
+    position: absolute;
+    width: 17.499vw;
+    height: 296px;
+    left: 44.945vw;
+    background: #EAECF5;
+    box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+    border-radius: 14.5941px;
+}
+
+.quemsomos .descricao .quadros .quadro3 img{
+    position: absolute;
+    left: 6.588vw;
+    top: 24px;
+    width: 46px;
+    height: 46px;
+}
+
+.quemsomos .descricao .quadros .quadro3 .texto_quadro{
+    position: absolute;
+    width: 14.055vw;
+    height: 197px;
+    left: 19.04px;
+    top: 88px;
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/*Segunda Parte*/
+
+
+.quemsomos .descricao .titulo_diretorias{
+    position: absolute;
+    width: 193px;
+    height: 47px;
+    left: 9.064%;
+    top: 683px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+
+}
+
+/*Quadros*/
+
+.quemsomos .descricao .diretorias{
+    position: absolute;
+    width: 84.956%;
+    height: 335px;
+    left: 7.714%;
+    top: 774px;
+}
+
+.quemsomos .descricao .diretorias .diretorias_quadros{
+    position: absolute;
+    left: 1.35%;
+}
+
+.quemsomos .descricao .diretorias .diretorias_quadros .quadro_presidencia{
+    position: absolute;
+    width: 12.591vw;
+    height: 9.736vw;
+    background: #EAECF5;
+    box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+    border-radius: 14.5941px
+}
+
+.quemsomos .descricao .diretorias .diretorias_quadros .quadro_presidencia img{
+    position: absolute;
+    top: 2.781vw;
+    left: 4.099vw;    
+    height: 4.172vw;
+    width: 4.172vw;
+}
+
+.quemsomos .descricao .diretorias .diretorias_quadros .quadro_vp{
+    position: absolute;
+    width: 12.591vw;;
+    height: 9.736vw;
+    left: 16.837vw;
+    background: #EAECF5;
+    box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+    border-radius: 14.5941px;
+}
+
+.quemsomos .descricao .diretorias .diretorias_quadros .quadro_vp img{
+    position: absolute;
+    top: 2.781vw;
+    left: 4.099vw;
+    height: 4.172vw;
+    width: 4.172vw;    
+}
+
+
+.quemsomos .descricao .diretorias .diretorias_quadros .quadro_marketing{
+    position: absolute;
+    width: 12.591vw;
+    height: 9.736vw;
+    left: 33.455vw;
+    background: #EAECF5;
+    box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+    border-radius: 14.5941px;
+}
+
+.quemsomos .descricao .diretorias .diretorias_quadros .quadro_marketing img{
+    position: absolute;
+    top: 2.781vw;
+    left: 4.245vw;
+    height: 4.172vw;
+    width: 4.172vw;    
+}
+
+
+.quemsomos .descricao .diretorias .diretorias_quadros .quadro_projetos{
+    position: absolute;
+    width: 12.591vw;
+    height: 9.736vw;
+    left: 50.073vw;
+    background: #EAECF5;
+    box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+    border-radius: 14.5941px;
+}
+
+.quemsomos .descricao .diretorias .diretorias_quadros .quadro_projetos img{
+    position: absolute;
+    top: 2.781vw;
+    left: 4.319vw; 
+    height: 4.172vw;
+    width: 4.172vw;   
+}
+
+/*Parte sobre cada diretoria*/
+
+
+.quemsomos .descricao .diretorias .titulo_presidencia{
+    position: absolute;
+    width: 12.318vw;
+    height: 29.77px;
+    left: 2.855vw;
+    top: 10.834vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+
+
+}
+
+.quemsomos .descricao .diretorias .descricao_presidencia{
+    position: absolute;
+    width: 14.641vw;
+    height: 150px;
+    top: 13.177vw;
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+.quemsomos .descricao .diretorias .titulo_vp{
+    position: absolute;
+    width: 16.032vw;
+    height: 30px;
+    left: 17.057vw;
+    top: 10.834vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+}
+
+.quemsomos .descricao .diretorias .descricao_vp{
+    position: absolute;
+    width: 14.641vw;
+    height: 150px;
+    left: 16.544vw;
+    top: 13.177vw;
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+.quemsomos .descricao .diretorias .titulo_marketing{
+    position: absolute;
+    width: 12.318vw;
+    height: 29.77px;
+    left: 34.553vw;
+    top: 10.834vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.quemsomos .descricao .diretorias .descricao_marketing{
+    position: absolute;
+    width: 14.641vw;
+    height: 150px;
+    left: 33.308vw;
+    top: 13.177vw;
+    font-family:'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+.quemsomos .descricao .diretorias .titulo_projetos{
+    position: absolute;
+    width: 12.318vw;
+    height: 29.77px;
+    left: 51.171vw;
+    top: 10.834vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+.quemsomos .descricao .diretorias .descricao_projetos{
+    position: absolute;
+    width: 14.641vw;
+    height: 150px;
+    left: 49.853vw;
+    top: 13.177vw;
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+
+/*Parte do quadro branco*/
+
+.quemsomos .descricao{
+    position: absolute;
+    width: 75.915%;
+    height: 1225px;
+    left: 12.738%;
+    top: 329.59px;
 
     background: #FFFFFF;
     box-shadow: 5px 5px 100px 100px rgba(0, 0, 0, 0.7);
@@ -224,6 +607,80 @@
 }
 
 
+@media screen and (max-width: 1305px){
+
+    /*Primeira parte*/
+    .quemsomos .descricao .titulo_descricao{
+        font-size: 3vw;
+    }
+
+    .quemsomos .descricao .subtitulo_descricao{
+        font-size: 1.6vw;
+    }
+    /*Parte dos primeiros quadros*/
+
+
+    .quemsomos .descricao .quadros .quadro1 .texto_quadro{
+        font-size: 1.2vw;
+    }
+
+    .quemsomos .descricao .quadros .quadro2 .texto_quadro{
+        font-size: 1.2vw;
+    }
+
+    .quemsomos .descricao .quadros .quadro3 .texto_quadro{
+        font-size: 1.2vw;
+    }
+
+
+    /*Segunda Parte*/
+
+
+    .quemsomos .descricao .titulo_diretorias{
+        font-size: 36px;
+    }
+
+    .quemsomos .descricao .diretorias .titulo_presidencia{
+        height: 29.77px;
+        font-size: 1.4641vw;
+    
+    
+    }
+    
+    .quemsomos .descricao .diretorias .descricao_presidencia{
+        height: 150px;
+        font-size: 1.224vw;
+    }
+    
+    .quemsomos .descricao .diretorias .titulo_vp{
+        height: 30px;
+        font-size: 1.4641vw;
+    }
+    
+    .quemsomos .descricao .diretorias .descricao_vp{
+        height: 150px;
+        font-size: 1.224vw;
+    }
+    
+    .quemsomos .descricao .diretorias .titulo_marketing{
+        height: 29.77px;
+        font-size: 1.4641vw;
+    }
+    
+    .quemsomos .descricao .diretorias .descricao_marketing{
+        height: 150px;
+        font-size: 1.224vw;
+    }
+    
+    .quemsomos .descricao .diretorias .titulo_projetos{
+        height: 29.77px;
+        font-size: 1.4641vw;
+    }
+    .quemsomos .descricao .diretorias .descricao_projetos{
+        height: 150px;
+        font-size: 1.224vw;
+    }
+}
 
 @media screen and (max-width: 800px) {
    
@@ -232,7 +689,7 @@
 
         display: flex;
         flex-direction: row;
-        height: 2739px;
+        height: 730vw;
         width: auto;
         background-color: #0D0D0D;
     }
@@ -463,7 +920,7 @@
     }
     
     .quemsomos .imagens .planetaazul img{
-        width: 100%;
+        width: 0%;
     }
     
     /*Parte do quadro branco*/
@@ -471,12 +928,384 @@
     .quemsomos .descricao{
         position: absolute;
         width: 85.6%;
-        height: 2339px;
+        height: 623.733vw;
         left: 7.466%;
         top: 247px;
-    
+        text-align: left;
         background: #FFFFFF;
         box-shadow: 4px 4px 100px 50px rgba(0, 0, 0, 0.8);
         border-radius: 20px;
-	}
+    }
+    
+    /*Primeira parte*/
+    .quemsomos .descricao .titulo_descricao{
+        position: absolute;
+        width: 74.933vw;
+        height: 113.87px;
+        left: 5.066vw;
+        font-size: 4.8vw;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .quemsomos .descricao .subtitulo_descricao{
+        position: absolute;
+        width: 74.933vw;
+        height: 30.365vw;
+        left: 5.333vw;
+        top: 32.26vw;
+        font-family: 'Montserrat', sans-serif;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.466vw;
+        line-height: 4.033vw;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    /*Parte dos primeiros quadros*/
+    .quemsomos .descricao .quadros{
+        position: absolute;
+        width: 63.733vw;
+        height: 227.2vw;
+        left: 10.666vw;
+        top: 67.2vw;
+
+    }
+
+    .quemsomos .descricao .quadros .quadro1{
+        position: absolute;
+        width: 63.733vw;
+        height: 64.266vw;
+        background: #EAECF5;
+        box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+        border-radius: 14.5941px;
+    }
+
+    .quemsomos .descricao .quadros .quadro1 img{
+        position: absolute;
+        left: 24vw;
+        top: 8.266vw;
+        width: 12.266vw;
+        height: 12.266vw;
+    }
+
+    .quemsomos .descricao .quadros .quadro1 .texto_quadro{
+        position: absolute;
+        width: 52vw;
+        height: 197px;
+        left: 5.333vw;
+        top: 24vw;
+        font-family: 'Montserrat', sans-serif;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.733vw;
+        line-height: 4.533vw;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .quemsomos .descricao .quadros .quadro2{
+        position: absolute;
+        width: 63.733vw;
+        height: 64.266vw;
+        left: 0vw;
+        top: 78.4vw;
+        background: #EAECF5;
+        box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+        border-radius: 14.5941px;
+    }
+
+    .quemsomos .descricao .quadros .quadro2 img{
+        position: absolute;
+        left: 24.8vw;
+        top: 5.866vw;
+        width: 12.266vw;
+        height: 12.266vw;
+    }
+
+    .quemsomos .descricao .quadros .quadro2 .texto_quadro{
+        position: absolute;
+        width: 51.2vw;
+        height: 197px;
+        left: 4.533vw;
+        top: 20.8vw;
+        font-family:'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.733vw;
+        line-height: 4.533vw;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .quemsomos .descricao .quadros .quadro3{
+        position: absolute;
+        width: 63.733vw;
+        height: 64.266vw;
+        top: 160.267vw;
+        left: 0vw;
+        background: #EAECF5;
+        box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+        border-radius: 14.5941px;
+    }
+
+    .quemsomos .descricao .quadros .quadro3 img{
+        position: absolute;
+        left: 25.61vw;
+        top: 6.4vw;
+        width: 12.266vw;
+        height: 12.266vw;
+    }
+
+    .quemsomos .descricao .quadros .quadro3 .texto_quadro{
+        position: absolute;
+        width: 51.2vw;
+        height: 197px;
+        left: 5.077vw;
+        top: 21.6vw;
+        font-family: 'Montserrat', sans-serif;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.733vw;
+        line-height: 4.533vw;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+
+    /*Segunda Parte*/
+
+
+    .quemsomos .descricao .titulo_diretorias{
+        position: absolute;
+        width: 51.46vw;
+        height: 21px;
+        left: 6.66vw;
+        top: 312.8vw;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.533vw;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+
+    }
+
+    /*Quadros*/
+
+    .quemsomos .descricao .diretorias{
+        position: absolute;
+        width: 42.4vw;
+        height: 249.6vw;
+        left: 21.866vw;
+        top: 328.8vw;
+    }
+
+    .quemsomos .descricao .diretorias .diretorias_quadros{
+        position: absolute;
+        left: 0vw;
+    }
+
+    .quemsomos .descricao .diretorias .diretorias_quadros .quadro_presidencia{
+        position: absolute;
+        width: 42.4vw;
+        height: 32.8vw;
+        background: #EAECF5;
+        box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+        border-radius: 14.5941px
+    }
+
+    .quemsomos .descricao .diretorias .diretorias_quadros .quadro_presidencia img{
+        position: absolute;
+        top: 10.933vw;
+        left: 15.733vw;    
+        height: 11.2vw;
+        width: 11.2vw;
+    }
+
+    .quemsomos .descricao .diretorias .diretorias_quadros .quadro_vp{
+        position: absolute;
+        width: 42.4vw;
+        height: 32.8vw;
+        left: 0vw;
+        top: 73.066vw;
+        background: #EAECF5;
+        box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+        border-radius: 14.5941px;
+    }
+
+    .quemsomos .descricao .diretorias .diretorias_quadros .quadro_vp img{
+        position: absolute;
+        top: 10.933vw;
+        left: 15.733vw;    
+        height: 11.2vw;
+        width: 11.2vw;  
+    }
+
+
+    .quemsomos .descricao .diretorias .diretorias_quadros .quadro_marketing{
+        position: absolute;
+        width: 42.4vw;
+        height: 32.8vw;
+        left: 0vw;
+        top: 148.266vw;
+        background: #EAECF5;
+        box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+        border-radius: 14.5941px;
+    }
+
+    .quemsomos .descricao .diretorias .diretorias_quadros .quadro_marketing img{
+        position: absolute;
+        top: 10.666vw;
+        left: 15.466vw;
+        height: 11.466vw;
+        width: 11.466vw;    
+    }
+
+
+    .quemsomos .descricao .diretorias .diretorias_quadros .quadro_projetos{
+        position: absolute;
+        width: 42.4vw;
+        height: 32.8vw;
+        left: 0vw;
+        top: 216.8vw;
+        background: #EAECF5;
+        box-shadow: 1.94588px 4.86469px 19.4588px rgba(0, 0, 0, 0.25);
+        border-radius: 14.5941px;
+    }
+
+    .quemsomos .descricao .diretorias .diretorias_quadros .quadro_projetos img{
+        position: absolute;
+        top: 10.666vw;
+        left: 15.466vw;
+        height: 11.466vw;
+        width: 11.466vw;   
+    }
+
+    /*Parte sobre cada diretoria*/
+
+
+    .quemsomos .descricao .diretorias .titulo_presidencia{
+        position: absolute;
+        width: 42.4vw;
+        height: 8vw;
+        left: 0vw;
+        top: 36.533vw;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.733vw;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+
+
+    }
+
+    .quemsomos .descricao .diretorias .descricao_presidencia{
+        position: absolute;
+        width: 42.4vw;
+        height: 8vw;
+        top: 43.2vw;
+        font-family: 'Montserrat', sans-serif;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.933vw;
+        line-height: 13px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .quemsomos .descricao .diretorias .titulo_vp{
+        position: absolute;
+        width: 40vw;
+        height: 30px;
+        left: 0vw;
+        top: 109.6vw;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.733vw;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-align: center;
+        
+    }
+
+    .quemsomos .descricao .diretorias .descricao_vp{
+        position: absolute;
+        width: 42.4vw;
+        height: 96px;
+        left: 0vw;
+        top: 116vw;
+        font-family: 'Montserrat', sans-serif;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.933vw;
+        line-height: 13px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .quemsomos .descricao .diretorias .titulo_marketing{
+        position: absolute;
+        width: 40.8vw;
+        height: 8vh;
+        left: 0vw;
+        top: 184.8vw;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.733vw;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .quemsomos .descricao .diretorias .descricao_marketing{
+        position: absolute;
+        width: 42.4vw;
+        height: 37.733vw;
+        left: 0vw;
+        top: 191.2vw;
+        font-family:'Montserrat', sans-serif;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.933vw;
+        line-height: 13px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .quemsomos .descricao .diretorias .titulo_projetos{
+        position: absolute;
+        width: 40.8vw;
+        height: 8vh;
+        left: 0vw;
+        top: 253.333vw;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.733vw;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.03em;
+        }
+
+    .quemsomos .descricao .diretorias .descricao_projetos{
+        position: absolute;
+        width: 42.4vw;
+        height: 37.733vw;
+        left: 0vw;
+        top: 261.333vw;
+        font-family:'Montserrat', sans-serif;;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.933vw;
+        line-height: 13px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+
 }

@@ -11,9 +11,10 @@ header {
 
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 72.41px;
     width: auto;
     background-color: #0D0D0D;
+    position: absolute;
 }
 /*Menu sanduiche*/
 header .check{
@@ -39,25 +40,28 @@ header .imagem_sanduiche img{
 /* estilizacao geral do menu */
 
 header #lista{
-    margin-left: 95vh;
     width: auto;
     justify-content: center;  
     align-self: center;  
+    position: relative;
+    left: 37.418vw;
 }
 
 /*esilização conteudo do menu*/
 header #lista .lista_link{
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-    font-weight: 300;
-    font-size: 25px;
+    font-weight: 100px;
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
-    margin: 50px;
+    margin-right: 6.295vw;
 }
 /*estilização logo*/
 header .logo{
     justify-content: center;  
+    position: absolute;
+    left: 89.189vw;
     align-self: center;  
 }
 
