@@ -35,19 +35,19 @@ export default function HeaderJS() {
             <div id="lista" className={toggle ? "open-drawer" : "drawer"}>
 
                     <AnchorLink onClick={ () => { changeToggle(); console.log(toggle);}} className="lista_link" offset={() => 100} href='#home'>
-                        INÍCIO
+                        sobre nós
                     </AnchorLink>   
 
                     <AnchorLink onClick={ () => { changeToggle(); console.log(toggle);}} className="lista_link" offset={() => 100} href='#sobre'>
-                        SOBRE NÓS
+                        serviços
                     </AnchorLink>    
 
                     <AnchorLink onClick={ () => { changeToggle(); console.log(toggle);}} className="lista_link" offset={() => 100} href='#espaco'>
-                        NOSSO ESPAÇO
+                        portifólio
                     </AnchorLink>    
 
                     <AnchorLink onClick={ () => { changeToggle(); console.log(toggle);}} className="lista_link" offset={() => 100} href='#contato'>
-                        CONTATO
+                        contato
                     </AnchorLink>    
 
                 {/*
