@@ -85,7 +85,7 @@
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 510px) {
 
 	.faleconosco{
 		padding-bottom: 50px;
@@ -129,7 +129,6 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		
 		width: 100%;
 	}
 
@@ -214,38 +213,55 @@
 
 }
 
-@media only screen and (max-width: 1440px) {
+@media screen and (min-width: 600px) {
 
 	.faleconosco .titulopadrao hr{	
 	    width: 50px;
 		margin-left: 150px;		
 	}
 
+	.faleconosco .titulopadrao{	
+		margin-left: 0px;
+		padding-left: 250px;	
+		font: 28px "Poppins", sans-serif;
+	}
+
 	.faleconosco .container1 .contform{
 		z-index: 2;
 		padding-left: 20px;
-		font: 20px "Poppins", sans-serif;
+		font: 22px "Poppins", sans-serif;
 	}
 
 	.faleconosco .container1 .contform .botoes .botaopadrao{
 		padding:10px 10px 10px 10px;
-		font: 16px "Montserrat", sans-serif;
+		font: 18px "Montserrat", sans-serif;
 		font-weight: bold;
 		height: 50px;
 	}
 
+	.faleconosco .container1 .satelite{
+		padding-right:0px;
+		margin-left: -25px;
+		margin-top: 100px;
+	}
+
+	.faleconosco .container1 .satelite img{
+		width: 250px;
+		height: auto;
+	}
+
 	.faleconosco .container1 .contform .input{
-		font: 18px "Poppins", sans-serif;
-		width: 400px;
+		font: 20px "Poppins", sans-serif;
+		width: 380px;
 	}
 
 	.faleconosco .container1 .contform .formularioesp2 .input{
 		width: 800px;
-		font: 18px "Poppins", sans-serif;
+		font: 20px "Poppins", sans-serif;
 	}
 
 	.centralizar .botaopadrao{
-		font: 15px "Montserrat", sans-serif;
+		font: 18px "Montserrat", sans-serif;
 		margin-top: 15px;
 
 	}
